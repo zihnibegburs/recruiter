@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1d19c681-7044-4c4b-92d1-2da5b858cde4" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="arn:aws:eks:me-south-1:965131684419:cluster/prod-getbaraka-dd90e4db" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="jdkForImporter" value="17" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="17" />
+  </component>
+  <component name="ProjectId" id="2ImXVVuJBNXx7OT66kpx4b4WKzr" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.openapi.externalSystem.service.settings.ExternalSystemGroupConfigurable" value="ALL" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/dataprovider 2/src/main/java/com/robofund/dataprovider" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$USER_HOME$/Downloads/dataprovider 2/src/main/java/com/robofund/dataprovider" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CryptoBot">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="dataprovider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="dataprovider" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CryptoBot" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="crypto" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.crypto.Recruiter" />
+      <option name="ACTIVE_PROFILES" value="local" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="17" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CryptoBotApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="crypto" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.crypto.Recruiter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DataproviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="crypto" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.crypto.Recruiter" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CryptoBot" />
+      <item itemvalue="Spring Boot.DataproviderApplication" />
+      <item itemvalue="Spring Boot.CryptoBotApplication" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1d19c681-7044-4c4b-92d1-2da5b858cde4" name="Changes" comment="" />
+      <created>1670787758619</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670787758619</updated>
+      <workItem from="1670787759791" duration="2116000" />
+      <workItem from="1670790325900" duration="4588000" />
+      <workItem from="1670862370434" duration="2752000" />
+      <workItem from="1670865162007" duration="1350000" />
+      <workItem from="1670866546134" duration="14074000" />
+      <workItem from="1670961727790" duration="5289000" />
+      <workItem from="1671903043947" duration="9435000" />
+      <workItem from="1676388939276" duration="605000" />
+      <workItem from="1676639848351" duration="2575000" />
+      <workItem from="1676727700688" duration="21000" />
+      <workItem from="1676727734991" duration="179000" />
+      <workItem from="1676728220204" duration="1020000" />
+      <workItem from="1676730690529" duration="17000" />
+      <workItem from="1676730717840" duration="444000" />
+      <workItem from="1676731176153" duration="23000" />
+      <workItem from="1684073159190" duration="163000" />
+      <workItem from="1684073434212" duration="9339000" />
+      <workItem from="1685810656337" duration="3137000" />
+      <workItem from="1685814004271" duration="55000" />
+      <workItem from="1685814064378" duration="240000" />
+      <workItem from="1685814308977" duration="179000" />
+      <workItem from="1685814505347" duration="1367000" />
+      <workItem from="1685889662373" duration="5389000" />
+      <workItem from="1685983834226" duration="5430000" />
+      <workItem from="1699630563640" duration="2938000" />
+      <workItem from="1702121416130" duration="4651000" />
+      <workItem from="1704874212857" duration="598000" />
+      <workItem from="1714669816716" duration="1534000" />
+      <workItem from="1715702626412" duration="4984000" />
+      <workItem from="1715710759587" duration="6606000" />
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/crypto/service/JobScratcherService.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/crypto/service/JobScratcherService.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/crypto/service/JobScratcherService.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/crypto/service/JobScratcherService.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/crypto/service/JobScratcherService.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/crypto/service/JobScratcherService.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CryptoBot$CryptoBot.ic" NAME="CryptoBot Coverage Results" MODIFIED="1685890928812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>

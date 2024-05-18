@@ -1,0 +1,8 @@
+com/crypto/controller/AccountController.class
+com/crypto/repository/JobRepository.class
+com/crypto/Recruiter.class
+com/crypto/dto/CommissionRates.class
+com/crypto/dto/Account.class
+com/crypto/service/JobScratcherService.class
+com/crypto/dto/Balance.class
+com/crypto/persistance/entity/Jobs.class
