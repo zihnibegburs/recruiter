@@ -18,14 +18,19 @@ public class AccountController {
         jobScratcherService.scratch();
     }
 
-    @GetMapping("/jobs")
-    public List<Jobs> getJobs() {
+    @GetMapping("/dummy/jobs")
+    public List<Jobs> geDummyJobs() {
         System.out.println("Test");
         Jobs test = new Jobs();
         test.setTitle("title");
         test.setUrl("localhost:3030");
         test.setDescription("description");
         return List.of(test);
+    }
+
+    @GetMapping("/jobs")
+    public List<Jobs> getJobs() {
+        return jobScratcherService.getJobs();
     }
 
 }
