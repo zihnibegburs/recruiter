@@ -20,7 +20,7 @@ public class AccountController {
 
     @GetMapping("/jobs")
     public List<Jobs> getJobs() {
-
+        System.out.println("Test");
         Jobs test = new Jobs();
         test.setTitle("title");
         test.setUrl("localhost:3030");
