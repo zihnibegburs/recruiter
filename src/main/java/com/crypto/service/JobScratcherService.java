@@ -25,7 +25,7 @@ public class JobScratcherService {
         try {
             // Connect to the website and get the HTML document
             Document document = Jsoup.connect(url)
-                    .userAgent("Mozilla/5.2 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36").get();
+                    .userAgent("Chrome").get();
 
             // Select the elements you want to extract (e.g., all paragraphs)
             Elements jobList = document.getElementsByClass("jobList-intro");
