@@ -1,5 +1,8 @@
 package com.crypto.service;
 
+import com.crypto.client.remotive.client.RemotiveClient;
+import com.crypto.client.remotive.dto.RemotiveJobDTO;
+import com.crypto.client.remotive.dto.RemotiveJobResponseDTO;
 import com.crypto.persistance.entity.Jobs;
 import com.crypto.repository.JobRepository;
 import org.jsoup.Jsoup;
@@ -17,6 +20,9 @@ public class JobScratcherService {
 
     @Autowired
     JobRepository jobRepository;
+
+    @Autowired
+    RemotiveClient remotiveClient;
 
     public void scratch(){
         String host = "https://www.crypto-careers.com";
@@ -51,6 +57,11 @@ public class JobScratcherService {
 
     public List<Jobs> getJobs() {
         return (List<Jobs>) jobRepository.findAll();
+    }
+
+    public void persistJobs() throws IOException, InterruptedException {
+        RemotiveJobResponseDTO remotiveJobResponseDTO = this.remotiveClient.fetchRemoteJobs();
+        remotiveJobResponseDTO.getJobs().forEach(r -> jobRepository.save(RemotiveJobDTO.getJob(r)));
     }
 
 }
