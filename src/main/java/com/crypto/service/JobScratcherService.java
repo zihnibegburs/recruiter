@@ -10,6 +10,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -55,8 +57,8 @@ public class JobScratcherService {
         }
     }
 
-    public List<Jobs> getJobs() {
-        return (List<Jobs>) jobRepository.findAll();
+    public Page<Jobs> getJobs(Pageable pageable) {
+        return  jobRepository.findAll(pageable);
     }
 
     public void persistJobs() throws IOException, InterruptedException {

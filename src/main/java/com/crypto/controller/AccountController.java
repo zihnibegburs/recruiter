@@ -5,6 +5,8 @@ import com.crypto.client.remotive.dto.RemotiveJobResponseDTO;
 import com.crypto.persistance.entity.Jobs;
 import com.crypto.service.JobScratcherService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.PageRequest;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
@@ -32,8 +34,8 @@ public class AccountController {
     }
 
     @GetMapping("/jobs")
-    public List<Jobs> getJobs() {
-        return jobScratcherService.getJobs();
+    public Page<Jobs> getJobs(int page, int size) {
+        return jobScratcherService.getJobs(PageRequest.of(page,size));
     }
 
 }
